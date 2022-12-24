@@ -5,16 +5,62 @@
   font-weight: 100;
 }
 
+@keyframes font-size_Animation {
+  0% {font-size: 80px; color: rgba(0,0,0,0.7)}
+  50% {font-size: 100px; color: rgba(0,0,0,1)}
+  100% {font-size: 80px; color: rgba(0,0,0,0.7)}
+}
+
+@keyframes bgAnim {
+  0% {background-color: white;}
+  50% {background-color: gray;}
+  100% {background-color: white;}
+}
+
+@keyframes nothing {
+
+}
+
+body{
+  font-family: "main";
+  text-align: center;
+  background-color: white;
+  animation-name: nothing;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+h1{
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  font-size: 80px;
+  animation-name: font-size_Animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+
 #MainBtn{
   margin-top: 50px;
   margin-left: 50px;
   font-family: "main";
-  color: blue;
+  color: black;
   height: 50px;
   width: 150px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: gray;
 }
 
-#honix{
+#hoverDiv{
   width: 250px;
   height: 150px;
+}
+
+.placeholder {
+  height: 100px;
 }
