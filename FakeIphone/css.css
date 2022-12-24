@@ -1,0 +1,174 @@
+
+@keyframes h1anima {
+  0%{
+    color: green;
+  }
+  25%{
+    color: red;
+  }
+  50%{
+    color: blue;
+  }
+  75%{
+    color: black;
+  }
+  100%{
+    color: green;
+  }
+}
+@keyframes anima {
+  from {
+    width: 500px;
+  }
+  to {
+    width: 530px;
+  }
+}
+@keyframes h3anima {
+  0%{
+    color: white;
+  }
+  100%{
+    color: grey;
+  }
+}
+@keyframes bganima {
+  0%{
+    color: red;
+    background-color: green;
+    margin-left: 600px;
+    width: 700px;
+    font-size: 200px;
+  }
+  25%{
+    color: blue;
+    background-color: red;
+    margin-left: 300px;
+    width: 1200px;
+    font-size: 100px;
+  }
+  50%{
+    color: green;
+    background-color: blue;
+    margin-left: 0px;
+    width: 1500px;
+    font-size: 0px;
+  }
+  75%{
+    color: green;
+    background-color: black;
+    margin-left: 300px;
+    width: 1000px;
+    font-size: 100px;
+  }
+  100%{
+    color: black;
+    background-color: green;
+    margin-left: 600px;
+    width: 700px;
+    font-size: 200px;
+  }
+}
+@keyframes bgBodyanima {
+  0%{
+    background-color: #D9E69C;
+  }
+  25%{
+    background-color: #F0D0A1;
+  }
+  50%{
+    background-color: #D98E97;
+  }
+  75%{
+    background-color: #AA90F0;
+  }
+  100%{
+    background-color: #8ADCE6;
+  }
+}
+@keyframes omg {
+  from {
+    width: 800px;
+  }
+  to {
+    width: 1000px;
+  }
+}
+
+body{
+  background-color: black;
+  background-size: 100%;
+  font-family: sans-serif;
+  animation-name: bgBodyanima;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+h1{
+  font-size: 40px;
+  font-family: sans-serif;
+  animation-name: h1anima;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  color: white;
+  animation-name: h3anima;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#img1 {
+  animation-duration: 0.5s;
+  animation-name: anima;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.images {
+  height: 350px;
+  margin-left: 36%;
+}
+#Username{
+  width: 400px;
+  height: 30px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+#Username:hover{
+  width: 420px;
+  height: 35px;
+  font-size: 21px;
+}
+
+button{
+  margin-left: 600px;
+  width: 400px;
+  height: 30px;
+  font-size: 20px;
+  transition: 1s;
+}
+button:hover{
+  width: 700px;
+  height: 400px;
+  font-size: 200px;
+  background-color: purple;
+  animation-name: bganima;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  }
+#omg{
+  animation-name: omg;
+  animation-duration: 0.3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+}

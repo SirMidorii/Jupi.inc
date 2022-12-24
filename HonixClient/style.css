@@ -1,0 +1,20 @@
+@font-face {
+  font-style: normal;
+  font-family: 'main';
+  src: url('nexa.woff');
+  font-weight: 100;
+}
+
+#MainBtn{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: "main";
+  color: blue;
+  height: 50px;
+  width: 150px;
+}
+
+#honix{
+  width: 250px;
+  height: 150px;
+}

@@ -1,0 +1,372 @@
+body{
+  background-image: url(bg.png);
+}
+
+@keyframes header {
+  from{
+    text-shadow: rgb(0, 0, 0) 0px 0px 10px;
+  }
+  to{
+    text-shadow: rgb(0, 0, 0) 0px 0px 20px;
+  }
+}
+
+@font-face {
+    font-family: 'mc';
+    src: url(minecraft.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+  font-family: 'mcreg';
+  src: url(mcregular.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+#map{
+  background-color: black;
+}
+
+#überschrift{
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-name: header;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  transform: translateY(-20px);
+  font-family: mc,"Lucida Console", Monaco, monospace;
+  font-size: 2.5vw;
+  letter-spacing: 14px;
+  word-spacing: 1.8px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+  text-shadow: rgb(0, 0, 0) 0px 0px 10px;
+  transition: 0.3s;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#überschrift:hover{
+  padding-top: 5px;
+  padding-bottom: 2px;
+  opacity: 0.5;
+}
+
+.newstext{
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: mcreg;
+  font-size: 19px;
+}
+
+#hn{
+  font-size: 35px;
+  font-family: mc, monospace;
+}
+
+#inf{
+  transition: 0.5s;
+}
+
+#inf:hover{
+  backdrop-filter: brightness(30%);
+}
+
+#ip{
+  margin-top: 12px;
+  font-family: monospace;
+  font-size: 25px;
+  background-color: #111112;
+  border-radius: 5px;
+}
+
+
+
+.News{
+  box-shadow: 10px 7px 15px 4px #000000;
+  /*backdrop-filter: blur(20px);
+*/
+  backdrop-filter: brightness(40%);
+  border-radius: 15px;
+
+}
+.Ips{
+  box-shadow: 10px 7px 15px 4px #000000;
+  /*backdrop-filter: blur(20px);
+*/
+  backdrop-filter: brightness(40%);
+  border-radius: 15px;
+}
+.Players{
+  box-shadow: 10px 7px 15px 4px #000000;
+  /*backdrop-filter: blur(20px);
+*/
+  backdrop-filter: brightness(40%);
+  border-radius: 15px;
+}
+
+.ocContainer{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.ebContainer{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.weContainer{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+
+}
+
+.gridContainer{
+
+  color: white;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  padding: 10px;
+  grid-gap: 200px;
+}
+
+.Genre{
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+
+}
+
+.Software{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.Game{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.Version{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.Port{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+#gut{
+  text-shadow: rgb(0, 200, 0) 0px 0px 10px;
+  color: #73be73;
+}
+
+#schlecht{
+  text-shadow: rgb(255, 0, 0) 0px 0px 10px;
+  color: red;
+}
+
+#w1{
+  border-radius: 5px;
+  background-color: black;
+  font-family: mcreg;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: -37px;
+}
+
+
+.Pname{
+  font-family: mcreg;
+  font-size: 25px;
+  transform: translateY(-25px);
+
+}
+
+.Player{
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #111112;
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+.PlayerO{
+  text-shadow: rgb(103, 1, 121) 0px 0px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #111112;
+  height: 90px;
+  margin-bottom: 10px;
+  color: #4c00b0;
+}
+
+.PlayerA{
+  text-shadow: rgb(236, 144, 6) 0px 0px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #111112;
+  height: 90px;
+  margin-bottom: 10px;
+  color: #f1b04c;
+}
+
+#w2{
+  font-family: monospace;
+  background-color: #111112;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: -37px;
+}
+
+.rankinfoO{
+  margin-left: 5px;
+  height: 30px;
+  background-color: #4c00b0;
+  border-radius: 5px;
+}
+
+.rankinfoM{
+  margin-left: 5px;
+  height: 30px;
+  background-color: #111112;
+  border-radius: 5px;
+}
+
+.rankinfoA{
+  margin-left: 5px;
+  height: 30px;
+  background-color: #EC9006;
+  border-radius: 5px;
+}
+
+#po{
+  padding-top: 10px;
+  box-shadow: -7px 20px 15px 5px #000000;
+}
+
+#pa{
+  padding-top: 10px;
+  box-shadow: -7px 20px 15px 5px #000000;
+
+}
+
+#pm{
+  padding-top: 10px;
+  box-shadow: -7px 20px 15px 5px #000000;
+
+}
+
+#rankh{
+  font-family: mcreg;
+  font-size: 25px;
+}
+
+#rankt{
+  font-family: monospace;
+  font-size: 18px;
+  transform: translateY(-14px);
+}
+
+.ranks{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.ph1{
+  width: 0px;
+}
+
+
+.headicons{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 653px;
+}
+
+.dcbutton{
+  height: 75px;
+  width: 92px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 7px;
+  transform: translateY(10px);
+  backdrop-filter: brightness(40%);
+  transition: 0.5s;
+}
+
+.mapbutton{
+  height: 75px;
+  width: 92px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 7px;
+  transform: translateY(10px);
+  backdrop-filter: brightness(40%);
+  transition: 0.5s;
+}
+
+.mapbutton:hover{
+  backdrop-filter: brightness(20%);
+}
+
+.dcbutton:hover{
+  backdrop-filter: brightness(20%);
+}
+
+#mapimg{
+  transform: translateY(-8px);
+  margin: 10px;
+}
+
+.ownericonContainer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#owname{
+  margin-left: -10%;
+}
+
+#totemicon{
+  margin-bottom: -28px;
+  margin-left: 84%;
+}
+
+.adminiconContainer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#adname{
+  margin-left: -10%;
+}
+
+#redstoneicon{
+  margin-bottom: -28px;
+  margin-left: 84%;
+}
