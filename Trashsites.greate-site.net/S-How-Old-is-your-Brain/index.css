@@ -93,9 +93,7 @@ body{
   margin-bottom: 0px;
 }
 
-.bganima{
-  background-color:
-}
+
 
 /* Ids */
 
@@ -170,8 +168,13 @@ body{
 }
 
 #startimg{
+  transition: 0.5s;
   float: right;
   transform: translateY(-15px);
+}
+
+#startimg:hover{
+  filter: brightness(50%);
 }
 
 
