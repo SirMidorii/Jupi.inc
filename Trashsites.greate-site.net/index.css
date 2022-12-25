@@ -1,3 +1,6 @@
+/* Animations */
+
+
 /* Fonts */
 @font-face {
   font-family: 'garet';
@@ -17,12 +20,20 @@
 }
 
 .aboutUs{
+  transition: 0.5s;
   background-color: #0d0d0d;
   width: 40%;
   padding-bottom: 5px;
   border-radius: 10px;
   margin-left: 30%;
   box-shadow: 20px 20px 0px 2px #1d1d1d;
+  animation-duration: 0.5s;
+}
+
+.aboutUs:hover{
+  transition: 0.5s;
+  box-shadow: -20px -20px 0px 2px #1d1d1d;
+
 }
 
 .gamesContainer{
