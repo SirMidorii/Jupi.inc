@@ -4,8 +4,8 @@ function gameStart() {
   setTimeout(function(){
     document.getElementById("wrapper").style.display = "none";
     document.getElementById("bg").style.display = "none";
-
-    update();
+    document.getElementById("game").style.display = "inline";
+    //update();
   },500);
 
 }
