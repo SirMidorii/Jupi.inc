@@ -7,10 +7,21 @@
     <title></title>
   </head>
   <body>
-    <h1 id="age">Your Brain Age: 41 Years</h1>
-    <div onmouseover="onHover()" id="honix">
-      <button id="MainBtn" onclick="pressbutton()" type="button" name="button">Wurtsgesicht</button>
+    <h1 id="h1">Your Brain Age:</h1>
+    <div class="placeholder">
+        <h2 id="age">61 Years</h2>
     </div>
-    <h1>Wurst</h1>
+    <div onmouseover="onHover()" id="hoverDiv">
+      <button id="MainBtn" onclick="pressbutton()" type="button" name="button">Click here to check brainpower!</button>
+    </div>
+    <div id="warning">
+      <div id="header">
+        <p>WARNING!</p>
+        <button onclick="start()" type="button" name="button">X</button>
+      </div>
+      <div id="content">
+        <p>This website might cause an epileptical attack! Continue with caution!</p>
+      </div>
+    </div>
   </body>
 </html>

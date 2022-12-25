@@ -5,16 +5,121 @@
   font-weight: 100;
 }
 
+@keyframes font-size_Animation {
+  0% {font-size: 80px; color: rgba(0,0,0,0.7)}
+  50% {font-size: 100px; color: rgba(0,0,0,1)}
+  100% {font-size: 80px; color: rgba(0,0,0,0.7)}
+}
+
+@keyframes bgAnim {
+  0% {background-color: white;}
+  50% {background-color: gray;}
+  100% {background-color: white;}
+}
+
+@keyframes nothing {
+
+}
+
+@keyframes exitAnimation {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+
+body{
+  font-family: "main";
+  text-align: center;
+  background-color: white;
+  animation-name: nothing;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+h1{
+  filter: blur(10px);
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  filter: blur(10px);
+  margin-top: 0px;
+  font-size: 80px;
+  animation-name: font-size_Animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+
 #MainBtn{
+  filter: blur(10px);
   margin-top: 50px;
   margin-left: 50px;
   font-family: "main";
-  color: blue;
+  color: black;
   height: 50px;
   width: 150px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: gray;
 }
 
-#honix{
+#hoverDiv{
   width: 250px;
   height: 150px;
+}
+
+.placeholder {
+  height: 100px;
+}
+
+#warning {
+  animation-timing-function: ease-in;
+  animation: nothing;
+  animation-duration: 0.5s;
+  filter: none;
+  background-color: gray;
+  color: white;
+  width: 40%;
+  margin-left: 30%;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+#header {
+  border-radius: 15px;
+  background-color: black;
+  display: grid;
+  grid-template-areas:
+  'paragraph paragraph exit';
+  height: 60px;
+}
+
+#header p {
+  transform: translateY(-45%);
+  margin-left: 20px;
+  grid-area: paragraph;
+  font-size: 30px;
+  text-align: left;
+}
+
+#header button {
+  color: black;
+  background-color: red;
+  border: solid 3px rgb(139,0,0);
+  font-size: 20px;
+  grid-area: exit;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 79%;
+  border-radius: 100px;
+  height: 30px;
+}
+
+#content {
+  font-size: 25px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 15px;
 }
