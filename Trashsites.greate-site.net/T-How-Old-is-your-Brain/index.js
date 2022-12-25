@@ -32,6 +32,4 @@ function start() {
     document.getElementById("age").style.filter = "none";
     document.getElementById("h1").style.filter = "none";
   },500);
-
-
 }
