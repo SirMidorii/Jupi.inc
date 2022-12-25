@@ -1,0 +1,104 @@
+/* Fonts */
+@font-face {
+  font-family: 'garet';
+  src: url(Fonts/garet.otf);
+  font-weight: 100px;
+  font-style: normal;
+}
+
+
+/* Classes */
+
+
+.topBar{
+  transform: translateY(-35px);
+  height: 100px;
+  background-color: #0d0d0d;
+}
+
+.aboutUs{
+  background-color: #0d0d0d;
+  width: 40%;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  margin-left: 30%;
+  box-shadow: 20px 20px 0px 2px #1d1d1d;
+}
+
+.gamesContainer{
+  margin-left: 20px;
+  margin-right: 40px;
+  grid-gap: 153px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.description{
+  border-radius: 10px;
+  margin-left: 0px;
+  transform: translateY(-29px);
+  height: 50px;
+  background-color: #141414;
+}
+
+/* Body */
+
+body{
+  margin: 0px;
+  background-color: black;
+}
+
+/* Ids */
+
+#überschriftMain{
+  text-shadow: rgb(225, 225, 225) 0px 0px 10px;
+  letter-spacing: 5px;
+  font-size: 50px;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  font-family: garet;
+}
+
+#überschriftAboutUs{
+  padding-top: 20px;
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+#textAboutUs{
+  color: white;
+  font-family: garet;
+  font-size: 20px;
+  text-align: center;
+}
+
+#pageItem{
+  transition: 0.3s;
+  width: 355px;
+  padding-top: 5%;
+  height: 230px;
+  margin-top: 20%;
+  background-color: #0d0d0d;
+  border-radius: 10px;
+}
+
+#pageItem:hover{
+  filter: brightness(70%);
+  border-radius: 30px;
+}
+
+#pageItem img{
+  padding-bottom: 5px;
+  margin-left: 5%;
+}
+
+#descriptionText{
+  color: white;
+  font-family: garet;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
