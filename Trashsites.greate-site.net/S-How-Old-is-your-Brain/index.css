@@ -1,0 +1,111 @@
+
+/* Body */
+
+body{
+  margin: 0px;
+  background-color: black;
+}
+
+
+/* Classes */
+
+.imgdesct{
+  padding: 2%;
+}
+
+.überschriftContainer{
+  grid-gap: 400px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.description{
+  border-radius: 10px;
+  width: 840px;
+  background-color: #303030;
+}
+
+.gridContainer{
+  grid-gap: 153px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.image{
+  height: 518px;
+  width: 908px;
+  margin-left: 1%;
+  background-color: #303030;
+  border-radius: 10px;
+}
+
+.topBar{
+  transform: translateY(-35px);
+  height: 100px;
+  background-color: #0d0d0d;
+
+}
+
+.imgdesc{
+  border-radius: 10px;
+  background-color: #141414;
+  height: 495px;
+  margin-top: 11px;
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-bottom: 0px;
+}
+
+/* Ids */
+
+
+#text{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  color: white;
+  font-family: garet;
+}
+
+#webimg{
+  border-radius: 10px;
+  margin: 1%;
+}
+
+#imgÜberschrift{
+  width: 900px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  color: white;
+  font-family: garet;
+  margin-left: 0px;
+}
+
+#descÜberschrift{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  color: white;
+  font-family: garet;
+  margin-left: 28%;
+}
+
+#überschriftMain{
+  text-shadow: rgb(225, 225, 225) 0px 0px 10px;
+  letter-spacing: 5px;
+  font-size: 50px;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  font-family: garet;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: 'garet';
+  font-style: normal;
+  font-weight: 100px;
+  src: url(Fonts/garet.otf);
+}
