@@ -23,7 +23,7 @@ body, html{
   margin: 0px;
   overflow: hidden;
   height: 100%;
-  /**background-image: url("Images/bgImg.png");*/
+  background-image: url("Images/bgImg.png");
 }
 
 #bg {
@@ -165,7 +165,6 @@ body, html{
   border: 1px gray solid;
   height: 58px;
   width: 58px;
-  background-color: black;
 }
 
 #game div {
