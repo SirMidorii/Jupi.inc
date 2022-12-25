@@ -13,7 +13,7 @@ function pressbutton() {
 
 function onHover() {
   if (count >= 5) {
-    
+
     pressbutton();
     if (count > 6) {
       document.body.style.animationName = "bgAnim";
@@ -22,4 +22,16 @@ function onHover() {
     }
     age *= 3;
   }
+}
+
+function start() {
+  document.getElementById("warning").style.animationName = "exitAnimation";
+  setTimeout(function(){
+    document.getElementById("warning").style.opacity = 0;
+    document.getElementById("MainBtn").style.filter = "none";
+    document.getElementById("age").style.filter = "none";
+    document.getElementById("h1").style.filter = "none";
+  },500);
+
+
 }
