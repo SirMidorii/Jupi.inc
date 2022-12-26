@@ -1,0 +1,33 @@
+@keyframes falscheEingabe {
+  0%{transform: translateX(0px)}
+  25%{transform: translateX(10px)}
+  50%{transform: translateX(-10px)}
+  75%{transform: translateX(10px)}
+  100%{transform: translateX(0px)}
+}
+
+
+@font-face {
+  font-family: 'garet';
+  src: url(Fonts/garet.otf);
+  font-weight: 100px;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nexa';
+  src: url(Fonts/nexa.woff);
+}
+
+#eingeben{
+  
+  animation-name: none;
+  animation-duration: 0.5s;
+}
+
+#überschrift{
+  font-family: nexa;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 0%;
+}
