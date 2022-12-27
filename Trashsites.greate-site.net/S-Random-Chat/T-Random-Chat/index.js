@@ -16,6 +16,8 @@ function auslesen() {
   }
 }
 
+
+
 function zurücksenden() {
   var msgLowercase = msgs[msgs.length - 1].toLowerCase();
   //Hi

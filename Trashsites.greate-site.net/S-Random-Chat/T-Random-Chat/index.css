@@ -1,33 +1,113 @@
+/* animations */
 @keyframes falscheEingabe {
-  0%{transform: translateX(0px)}
-  25%{transform: translateX(10px)}
-  50%{transform: translateX(-10px)}
-  75%{transform: translateX(10px)}
-  100%{transform: translateX(0px)}
+  0% {
+    transform: translateX(0px)
+  }
+
+  25% {
+    transform: translateX(10px)
+  }
+
+  50% {
+    transform: translateX(-10px)
+  }
+
+  75% {
+    transform: translateX(10px)
+  }
+
+  100% {
+    transform: translateX(0px)
+  }
 }
 
-
+/* Fonts */
 @font-face {
   font-family: 'garet';
   src: url(Fonts/garet.otf);
-  font-weight: 100px;
-  font-style: normal;
 }
 
-@font-face {
-  font-family: 'nexa';
-  src: url(Fonts/nexa.woff);
+/* Body */
+body {
+  background-color: #2b4a0e;
+  margin: 0px;
+  color: white;
 }
 
-#eingeben{
-  
+/* Classes */
+.topBar {
+  margin-top: -22px;
+  height: 100px;
+  background-color: #1f390b;
+  box-shadow: 0px 0px 10px 5px black;
+}
+
+.list{
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.description{
+  margin-left: 12%;
+  margin-right: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: rgb(30, 69, 25);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px black;
+  margin-top: 80px;
+  font-size: 24px;
+  letter-spacing: 3px;
+  font-family: garet;
+}
+
+.gridContainer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
+/* Ids */
+#überschriftMain {
+  text-shadow: rgb(155, 255, 101) 0px 0px 10px;
+  font-family: garet;
+  padding-top: 1.5%;
+  text-align: center;
+}
+
+#chatüberschrift{
+  font-size: 30px;
+  font-family: garet;
+  margin-top: 80px;
+  margin-left: 22%;
+}
+
+#eingeben {
+  margin-left: 16%;
+  margin-top: 40px;
+  font-family: monospace;
   animation-name: none;
   animation-duration: 0.5s;
+  font-size: 20px;
+  height: 50px;
+  width: 300px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: white;
+  background-color: rgb(5, 20, 9);
+  border-radius: 10px;
+
 }
 
-#überschrift{
-  font-family: nexa;
-  font-size: 60px;
-  text-align: center;
-  margin-top: 0%;
+#sendbutton{
+  font-family: garet;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(5, 20, 9);
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  height: 50px;
 }

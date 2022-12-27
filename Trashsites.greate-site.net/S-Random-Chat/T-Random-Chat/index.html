@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
-  <head>
-    <script src="index.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title>Chat</title>
-  </head>
-  <body>
-    <ul id="myList">
-      
-    </ul>
-    <input type="text" name="Wurst" id="eingeben" value="WDad">
+
+<head>
+  <script src="index.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="utf-8">
+  <title>🔊 Chat</title>
+</head>
+
+<body>
+  <div class="topBar">
+    <h1 id="überschriftMain">🔊 Chatter</h1>
+  </div>
+<div class="gridContainer">
+  <div class="description">
+    <p>Easy to use ✔️</p>
+    <p>Anonymous ✔️</p>
+    <p>Save ✔️</p>
+    <p>Fast ✔️</p>
+  </div>
+  <div class="chat">
+      <h1 id="chatüberschrift" >Start Chatting!</h1>
+    <div class="list">
+      <ul id="myList">
+      </ul>
+    </div>
+    <input type="text" name="ing" id="eingeben">
     <button id="sendbutton" onclick="auslesen()" type="button" name="button">Send</button>
-    <script>
-      var input = document.getElementById("eingeben");
-      input.addEventListener("keypress", function(event) {
-        if (event.key === "Enter") {
-          event.preventDefault();
-          document.getElementById("sendbutton").click();
-        }
-      });
-    </script>
-  </body>
+
+  </div>
+
+</div>
+
+
+
+  <script>
+    var input = document.getElementById("eingeben");
+    input.addEventListener("keypress", function(event) {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        document.getElementById("sendbutton").click();
+      }
+    });
+  </script>
+</body>
+
 </html>
