@@ -1,6 +1,4 @@
 /* Animations */
-
-
 /* Fonts */
 @font-face {
   font-family: 'garet';
@@ -9,10 +7,8 @@
   font-style: normal;
 }
 
-
 /* Classes */
-
-.github{
+.github {
   border-radius: 20px;
   background-color: rgb(34, 35, 43);
   margin-left: 10px;
@@ -20,7 +16,7 @@
   height: 280px;
 }
 
-.discord{
+.discord {
   margin-right: 15px;
   margin-top: 8%;
   height: 280px;
@@ -28,29 +24,31 @@
   border-radius: 20px;
 }
 
-.topBar{
+.topBar {
+  gap: 0px 644px;
+  display: grid;
+  grid-template-columns: auto auto auto;
   transform: translateY(-35px);
-  height: 100px;
+  height: 135px;
   background-color: #0d0d0d;
 }
 
-.aboutUs{
+.aboutUs {
   background-color: #0d0d0d;
   transition: 0.5s;
   background-color:
-  padding-bottom: 5px;
+    padding-bottom: 5px;
   border-radius: 10px;
   box-shadow: 20px 20px 0px 2px #1d1d1d;
   animation-duration: 0.5s;
 }
 
-.aboutUs:hover{
+.aboutUs:hover {
   transition: 0.5s;
   box-shadow: -20px -20px 0px 2px #1d1d1d;
-
 }
 
-.gamesContainerrow{
+.gamesContainerrow {
   margin-left: 20px;
   margin-right: 40px;
   grid-gap: 153px;
@@ -58,7 +56,7 @@
   grid-template-columns: auto auto auto auto;
 }
 
-.descriptionGitHub{
+.descriptionGitHub {
   border-radius: 10px;
   margin-left: 0px;
   transform: translateY(-29px);
@@ -66,7 +64,7 @@
   background-color: rgb(50, 52, 66);
 }
 
-.descriptionDiscord{
+.descriptionDiscord {
   border-radius: 10px;
   margin-left: 0px;
   transform: translateY(-29px);
@@ -74,7 +72,7 @@
   background-color: rgb(96, 98, 228);
 }
 
-.description{
+.description {
   border-radius: 10px;
   margin-left: 0px;
   transform: translateY(-29px);
@@ -82,7 +80,7 @@
   background-color: #141414;
 }
 
-.middleContainer{
+.middleContainer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 0.5fr;
@@ -92,15 +90,13 @@
 }
 
 /* Body */
-
-body{
+body {
   margin: 0px;
   background-color: black;
 }
 
 /* Ids */
-
-#überschriftMain{
+#überschriftMain {
   text-shadow: rgb(225, 225, 225) 0px 0px 10px;
   letter-spacing: 5px;
   font-size: 50px;
@@ -110,7 +106,7 @@ body{
   font-family: garet;
 }
 
-#überschriftAboutUs{
+#überschriftAboutUs {
   padding-top: 20px;
   color: white;
   font-family: monospace;
@@ -118,14 +114,26 @@ body{
   text-align: center;
 }
 
-#textAboutUs{
+#ghimg{
+  margin-left: 10px;
+  height: 80px;
+  border-radius: 20px;
+  margin-top: 50%;
+}
+
+#dcimg{
+  margin-top: 35%;
+  height: 100px;
+}
+
+#textAboutUs {
   color: white;
   font-family: garet;
   font-size: 20px;
   text-align: center;
 }
 
-#pageItem{
+#pageItem {
   transition: 0.3s;
   width: 355px;
   padding-top: 5%;
@@ -135,30 +143,27 @@ body{
   border-radius: 10px;
 }
 
-
-
-#githubimg{
+#githubimg {
   margin-left: 21%;
   transform: translateY(-5px);
 }
 
-#discordimg{
+#discordimg {
   margin-left: 6%;
   transform: translateY(-5px);
 }
 
-
-#pageItem:hover{
+#pageItem:hover {
   filter: brightness(70%);
   border-radius: 30px;
 }
 
-#pageItem img{
+#pageItem img {
   padding-bottom: 5px;
   margin-left: 5%;
 }
 
-#descriptionTextGithub{
+#descriptionTextGithub {
   color: white;
   font-family: garet;
   font-size: 20px;
@@ -166,7 +171,7 @@ body{
   padding-top: 10px;
 }
 
-#descriptionText{
+#descriptionText {
   color: white;
   font-family: garet;
   font-size: 20px;
