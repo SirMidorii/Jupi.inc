@@ -12,7 +12,21 @@
 
 /* Classes */
 
+.github{
+  border-radius: 20px;
+  background-color: rgb(34, 35, 43);
+  margin-left: 10px;
+  margin-top: 8%;
+  height: 280px;
+}
 
+.discord{
+  margin-right: 15px;
+  margin-top: 8%;
+  height: 280px;
+  background-color: rgb(78, 80, 182);
+  border-radius: 20px;
+}
 
 .topBar{
   transform: translateY(-35px);
@@ -21,12 +35,11 @@
 }
 
 .aboutUs{
-  transition: 0.5s;
   background-color: #0d0d0d;
-  width: 40%;
+  transition: 0.5s;
+  background-color:
   padding-bottom: 5px;
   border-radius: 10px;
-  margin-left: 30%;
   box-shadow: 20px 20px 0px 2px #1d1d1d;
   animation-duration: 0.5s;
 }
@@ -37,12 +50,28 @@
 
 }
 
-.gamesContainer{
+.gamesContainerrow{
   margin-left: 20px;
   margin-right: 40px;
   grid-gap: 153px;
   display: grid;
   grid-template-columns: auto auto auto auto;
+}
+
+.descriptionGitHub{
+  border-radius: 10px;
+  margin-left: 0px;
+  transform: translateY(-29px);
+  height: 50px;
+  background-color: rgb(50, 52, 66);
+}
+
+.descriptionDiscord{
+  border-radius: 10px;
+  margin-left: 0px;
+  transform: translateY(-29px);
+  height: 50px;
+  background-color: rgb(96, 98, 228);
 }
 
 .description{
@@ -51,6 +80,15 @@
   transform: translateY(-29px);
   height: 50px;
   background-color: #141414;
+}
+
+.middleContainer{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 0.5fr;
+  gap: 0px 80px;
+  grid-template-areas:
+    ". . .";
 }
 
 /* Body */
@@ -97,6 +135,19 @@ body{
   border-radius: 10px;
 }
 
+
+
+#githubimg{
+  margin-left: 21%;
+  transform: translateY(-5px);
+}
+
+#discordimg{
+  margin-left: 6%;
+  transform: translateY(-5px);
+}
+
+
 #pageItem:hover{
   filter: brightness(70%);
   border-radius: 30px;
@@ -105,6 +156,14 @@ body{
 #pageItem img{
   padding-bottom: 5px;
   margin-left: 5%;
+}
+
+#descriptionTextGithub{
+  color: white;
+  font-family: garet;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 #descriptionText{
