@@ -1,99 +1,148 @@
-/*Animations*/
-
 /*Fonts*/
 
 @font-face {
-  font-family: 'überschriftMain';
-  src: url(Fonts/überschriftMain.ttf);
-}
-
-@font-face {
-  font-family: 'garet';
+  font-family: "main";
   src: url(Fonts/garet.otf);
 }
 
-/*Elements*/
-
-html{
-  height: 100%;
+@font-face {
+  font-family: "main2";
+  src: url(Fonts/main2.ttf);
 }
 
+/*Animations*/
+
+
+/*Elements*/
+
 body{
-  background-color: #181818;
-  margin: 0;
-  height: 100%;
-  color: #BD2A2E;
+  color: white;
+  background-color: rgb(38, 38, 38);
+}
+
+html, h1, body, h2, h3, img{
+  margin: 0px;
+}
+
+a{
+  transition: 0.3s;
+  color: white;
+}
+
+/*Hover*/
+
+a:hover{
+  color: rgb(131, 131, 131);
+}
+
+/*Ids*/
+
+#überschriftMain{
+  font-size: 2.5vw;
+  font-family: main;
+  text-align: center;
+}
+
+#descriptionText{
+  font-family: main;
+  font-size: 1vw;
+  text-align: left;
+  margin-left: 4vw;
+  margin-top: 3.3vw;
+}
+
+#personenBeschreibungHeader{
+  margin-left: 1.5vw;
+  margin-top: 1vw;
+  font-family: main2;
+  font-size: 1.5vw;
+
+}
+
+#text{
+  margin-left: 1.5vw;
+  font-family: main;
+  font-size: 1vw;
+}
+
+#frankreichImg{
+  border-radius: 1vw;
+  margin: 1.4vw;
+  background-color: rgb(29, 29, 29);
+  height: 18vw;
+}
+
+#textLetztBesuchtesLand{
+  -webkit-mask-image: -webkit-gradient(linear, left top,
+   left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 1.5vw;
+  font-family: main;
+  font-size: 1vw;
+}
+
+#readMore{
+  transform: translateY(-0.8vw);
+  font-family: monospace;
+  font-size: 1vw;
+  margin-left: 1.5vw;
 }
 
 /*Classes*/
 
-.webContainer{
-  text-align: center;
-  height: 100%;
+.imgTop{
+  justify-content: center;
+  align-items: center;
+  display: flex;
   width: 100%;
+  height: 19vw;
+  background-color: rgb(16, 107, 164);
+}
+
+.hotbar{
+  border-top: 0.1vw solid black;
+  border-bottom: 0.1vw solid black;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: center;
   display: grid;
-  grid-template-columns: auto 70% auto;
+  grid-template-columns: auto auto auto auto auto;
+  height: 5vw;
+  background-color: rgb(27, 26, 26);
 }
 
-.itemSpalte{
-  border-color: black;
-  border-style: solid;
-  border-top: none;
-  border-bottom: none;
-  border-width: 1px;
-  background-color: rgb(21, 21, 21);
+
+.hotbarItem{
+  font-size: 0.9vw;
+  font-family: main2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-.webContext{
-  background-color: rgb(24, 24, 24);
-}
-
-.darker{
-  color: #661e20;
-}
-
-.buttonContainer{
+.bildContainer{
+  margin-right: 4vw;
+  margin-left: 4vw;
+  border-radius: 1vw;
+  margin-top: 4vw;
+  background-color: #343333;
   display: grid;
   grid-template-columns: auto auto;
 }
 
-.iconButton{
-  border-color: black;
-  border-width: 0.125vw;
-  border-style: solid;
-  margin-top: 0.4vw;
-  margin-left: 0.4vw;
-  margin-right:  0.4vw;
-  background-color: #d72f34;
-  border-radius: 0.8vw;
+.bild{
+  border-radius: 1vw;
+  height: 15vw;
+  width: 40vw;
+  background-color: rgb(16, 107, 164);
 }
 
-
-
-/*Ids*/
-
-#bbÜberschrift{
-  letter-spacing: 1px;
-  text-decoration: underline #661e20 4px;
-  font-size: 2.5vw;
-  font-family: überschriftMain;
-}
-
-#buttonAußwahl{
-  margin: 10px;
-  box-shadow: 0px 0px 54px -16px rgba(0,0,0,0.75);
-  background-color: #d72f34;
-  padding-top: 0.3vw;
-  font-family: garet;
-  font-size: 1.6vw;
-  height: 2.8vw;
-  width: 20%;
-  margin-top: 5%;
-  border: none;
-  border-radius: 0.8vw;
-}
-
-#icon{
-  height: 1.5vw;
-  margin-top: 0.5vw;
+.letzesLand{
+  border-radius: 1vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 4vw;
+  background-color: rgb(52, 51, 51);
 }
