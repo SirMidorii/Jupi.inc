@@ -33,6 +33,10 @@ a{
   color: white;
 }
 
+::selection {
+  background: #5F5DC0;
+}
+
 /*Hover*/
 
 
