@@ -5,9 +5,10 @@
   src: url(Fonts/garet.otf);
 }
 
+
 @font-face {
-  font-family: "main2";
-  src: url(Fonts/main2.ttf);
+  font-family: "Lgc";
+  src: url(Fonts/Lgc.ttf);
 }
 
 /*Animations*/
@@ -54,7 +55,7 @@ a:hover{
 #personenBeschreibungHeader{
   margin-left: 1.5vw;
   margin-top: 1vw;
-  font-family: main2;
+  font-family: Lgc;
   font-size: 1.5vw;
 
 }
@@ -116,7 +117,7 @@ a:hover{
 
 .hotbarItem{
   font-size: 0.9vw;
-  font-family: main2;
+  font-family: Lgc;
   justify-content: center;
   align-items: center;
   display: flex;
