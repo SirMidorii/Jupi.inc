@@ -44,7 +44,7 @@ a:hover{
 
 #überschriftMain{
   font-size: 2.5vw;
-  font-family: main;
+  font-family: Lgc;
   text-align: center;
 }
 
@@ -98,6 +98,8 @@ a:hover{
 /*Classes*/
 
 .imgTop{
+  color: black;
+  background-image: url(Imgs/banner.jpg);
   justify-content: center;
   align-items: center;
   display: flex;

@@ -1,4 +1,4 @@
-Lgc/*Fonts*/
+/*Fonts*/
 
 @font-face {
   font-family: "main";
@@ -44,6 +44,10 @@ a{
   text-align: center;
 }
 
+#current{
+  color: #5F5DC0;
+}
+
 #descriptionText{
   font-family: main;
   font-size: 1vw;
@@ -55,6 +59,7 @@ a{
 /*Classes*/
 
 .imgTop{
+  background-image: url(Imgs/banner.jpg);
   justify-content: center;
   align-items: center;
   display: flex;
@@ -78,7 +83,7 @@ a{
 
 .hotbarItem{
   font-size: 0.9vw;
-  font-family: main2;
+  font-family: Lgc;
   justify-content: center;
   align-items: center;
   display: flex;
