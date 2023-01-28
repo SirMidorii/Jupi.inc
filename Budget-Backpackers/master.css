@@ -38,6 +38,10 @@ a:hover{
 
 /*Ids*/
 
+#current{
+  color: #5F5DC0;
+}
+
 #überschriftMain{
   font-size: 2.5vw;
   font-family: main;
