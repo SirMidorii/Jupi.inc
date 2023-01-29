@@ -15,7 +15,7 @@
 
 /*Elements*/
 
-h1, h2, h3, html, body{
+h1, h2, h3, html, body, p{
   margin: 0px;
 }
 
@@ -33,9 +33,6 @@ a{
   color: white;
 }
 
-::selection {
-  background: #5F5DC0;
-}
 
 /*Hover*/
 
@@ -53,12 +50,60 @@ a{
 }
 
 #descriptionText{
+  margin-left: 15vw;
   font-family: main;
   font-size: 1vw;
-  text-align: left;
-  margin-left: 4vw;
   margin-top: 3.3vw;
 }
+
+#headerH3{
+  font-size: 1.2vw;
+  margin-top: 1.3vw;
+  font-family: monospace;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#tipText{
+  font-family: main;
+  font-size: 1.1vw;
+  padding: 0.5vw;
+}
+
+/*Farben*/
+
+#t1{
+  background-color: rgb(200, 86, 86);
+}
+#t2{
+  background-color: rgb(200, 117, 86);
+}
+#t3{
+  background-color: rgb(200, 158, 86);
+}
+#t4{
+  background-color: rgb(167, 200, 86);
+}
+#t5{
+  background-color: rgb(86, 200, 97);
+}
+#t6{
+  background-color: rgb(86, 200, 183);
+}
+#t7{
+  background-color: rgb(86, 156, 200);
+}
+#t8{
+  background-color: rgb(88, 86, 200);
+}
+#t9{
+  background-color: rgb(153, 86, 200);
+}
+#t10{
+  background-color: rgb(200, 86, 86);
+}
+
 
 /*Classes*/
 
@@ -92,4 +137,37 @@ a{
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.strich{
+  margin-top: 2vw;
+  border-top: 0.2vw solid rgb(27, 26, 26);
+  width: 72%;
+  margin-left: 14.3vw;
+}
+
+.tipContainer{
+  width: 70vw;
+  height: 4vw;
+  margin-top: 2.5vw;
+  margin-left: 15vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #1c1c1c;
+}
+
+.tipCount{
+  background-color: #171717;
+  width: 4vw;
+}
+
+.tipHeader{
+  width: 68vw;
+}
+
+.tipDescription{
+  margin-left: 15vw;
+  width: 70vw;
+  height: 9vw;
+  background-color: rgb(48, 46, 46);
 }

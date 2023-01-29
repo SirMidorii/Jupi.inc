@@ -129,12 +129,22 @@ h3{
   display: flex;
 }
 
+.strich{
+  margin-top: 2vw;
+  border-top: 0.2vw solid rgb(27, 26, 26);
+  width: 92vw;
+  margin-left: 3.5vw;
+}
+
 .Bereistesland{
   border: 0.2vw solid black;
   border-radius: 1vw;
   display: grid;
   grid-template-columns: auto auto;
-  margin: 4vw;
+  margin-top: 2.5vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-bottom: 4vw;
   background-color: rgb(85, 83, 83);
 }
 

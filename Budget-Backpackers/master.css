@@ -45,6 +45,10 @@ a:hover{
   color: #5F5DC0;
 }
 
+#bannerImg{
+  width: 100%;
+}
+
 #überschriftMain{
   font-size: 2.5vw;
   font-family: Lgc;
@@ -102,12 +106,10 @@ a:hover{
 
 .imgTop{
   color: black;
-  background-image: url(Imgs/banner.jpg);
   justify-content: center;
   align-items: center;
   display: flex;
   width: 100%;
-  height: 19vw;
   background-color: rgb(16, 107, 164);
 }
 
@@ -132,11 +134,19 @@ a:hover{
   display: flex;
 }
 
+.strich{
+  margin-top: 2vw;
+  border-top: 0.2vw solid rgb(27, 26, 26);
+  width: 94%;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
 .bildContainer{
   margin-right: 4vw;
   margin-left: 4vw;
   border-radius: 1vw;
-  margin-top: 4vw;
+  margin-top: 2.5vw;
   background-color: #343333;
   display: grid;
   grid-template-columns: auto auto;
