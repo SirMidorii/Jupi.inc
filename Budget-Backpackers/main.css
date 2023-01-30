@@ -1,0 +1,90 @@
+/*Fonts*/
+
+@font-face {
+  font-family: "main";
+  src: url(Fonts/garet.otf);
+}
+
+@font-face {
+  font-family: "Lgc";
+  src: url(Fonts/Lgc.ttf);
+}
+
+/*Animations*/
+
+/*Elements*/
+
+body{
+  color: white;
+  background-color: rgb(38, 38, 38);
+}
+
+html, h1, body,h4 ,h5, h2, h3, img{
+  margin: 0px;
+}
+
+a{
+  transition: 0.3s;
+  color: white;
+}
+
+h3{
+  margin-left: 1.5vw;
+  margin-top: 1vw;
+  font-family: Lgc;
+  font-size: 1.5vw;
+}
+
+::selection {
+  background: #5F5DC0;
+}
+
+
+/*Hover*/
+a:hover{
+  color: rgb(131, 131, 131);
+}
+
+/*Ids*/
+#current{
+  color: #5F5DC0;
+}
+
+#bannerImg{
+  width: 100%;
+}
+
+#descriptionText{
+  font-family: main;
+  font-size: 1vw;
+  text-align: left;
+  margin-top: 3.3vw;
+}
+
+/*Classes*/
+.imgTop{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.hotbar{
+  border-top: 0.1vw solid black;
+  border-bottom: 0.1vw solid black;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  height: 5vw;
+  background-color: rgb(27, 26, 26);
+}
+
+
+.hotbarItem{
+  font-size: 0.9vw;
+  font-family: Lgc;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

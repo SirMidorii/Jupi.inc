@@ -1,66 +1,6 @@
-/*Fonts*/
-
-@font-face {
-  font-family: "main";
-  src: url(Fonts/garet.otf);
-}
-
-
-@font-face {
-  font-family: "Lgc";
-  src: url(Fonts/Lgc.ttf);
-}
-
-/*Animations*/
-
-
-/*Elements*/
-
-body{
-  color: white;
-  background-color: rgb(38, 38, 38);
-}
-
-html, h1, body, h2, h3, img{
-  margin: 0px;
-}
-
-a{
-  transition: 0.3s;
-  color: white;
-}
-
-::selection {
-  background: #5F5DC0;
-}
-/*Hover*/
-
-a:hover{
-  color: rgb(131, 131, 131);
-}
-
 /*Ids*/
-
-#current{
-  color: #5F5DC0;
-}
-
-#bannerImg{
-  width: 100%;
-}
-
-#überschriftMain{
-  font-size: 2.5vw;
-  font-family: Lgc;
-  text-align: center;
-}
-
 #descriptionText{
-  font-family: main;
-  font-size: 1vw;
-  text-align: left;
   margin-left: 4vw;
-  margin-top: 3.3vw;
 }
 
 #personenBeschreibungHeader{
@@ -68,7 +8,6 @@ a:hover{
   margin-top: 1vw;
   font-family: Lgc;
   font-size: 1.5vw;
-
 }
 
 #text{
@@ -103,36 +42,6 @@ a:hover{
 }
 
 /*Classes*/
-
-.imgTop{
-  color: black;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 100%;
-  background-color: rgb(16, 107, 164);
-}
-
-.hotbar{
-  border-top: 0.1vw solid black;
-  border-bottom: 0.1vw solid black;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  text-align: center;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  height: 5vw;
-  background-color: rgb(27, 26, 26);
-}
-
-
-.hotbarItem{
-  font-size: 0.9vw;
-  font-family: Lgc;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
 
 .strich{
   margin-top: 2vw;
