@@ -49,6 +49,12 @@
   margin-right: 4vw;
   margin-bottom: 4vw;
   background-color: rgb(85, 83, 83);
+  transition: 0.5s;
+}
+
+.Bereistesland:hover{
+  transform: translateY(-1vw);
+  background-color: rgb(65, 64, 64);
 }
 
 .TagsContainer{
