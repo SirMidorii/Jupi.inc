@@ -32,6 +32,7 @@
 /*Animations*/
 /*Elements*/
 body {
+  margin: 0px;
   color: white;
   background-color: rgb(38, 38, 38);
 }
@@ -45,13 +46,6 @@ a {
   color: white;
 }
 
-h3 {
-  margin-left: 1.5vw;
-  margin-top: 1vw;
-  font-family: Lgc;
-  font-size: 1.5vw;
-}
-
 ::selection {
   background: #5F5DC0;
 }
@@ -61,48 +55,26 @@ a:hover {
   color: rgb(131, 131, 131);
 }
 
-/*Ids*/
-#current {
-  color: #5F5DC0;
-}
 
-#bannerImg {
-  width: 100%;
-}
 
-#descriptionText {
-  font-family: main;
-  font-size: 1vw text-align: left;
-  margin-top: 3.3vw;
-}
-
-/*Classes*/
-.imgTop {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
 
 .hotbar {
-  border-top: 0.1vw solid black;
-  border-bottom: 0.1vw solid black;
+  transform: translateY(-0.2vw);
+  border-top: 0.3vw solid black;
+  border-bottom: 0.3vw solid black;
   padding-left: 10vw;
   padding-right: 10vw;
   text-align: center;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  height: 5vw;
+  height: 10vw;
   background-color: rgb(27, 26, 26);
 }
 
-.hotbarItem {
-  font-size: 0.9vw;
-  font-family: Lgc;
+.hotbarItem{
+  font-size: 1.8vw;
+  font-family:  main;
   justify-content: center;
   align-items: center;
   display: flex;
-}
-
-@media (max-width: 1080px) {
-
 }

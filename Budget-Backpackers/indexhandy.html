@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="mainhandy.css">
+    <link rel="stylesheet" href="masterhandy.css">
+    <meta charset="utf-8">
+    <title>Budget-Backpacker</title>
+    <script>
+      $(document).ready(function() {
+        if ($(window).width() >= 950) {
+          window.location = "index.html";
+        }
+      });
+    </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="imgTop">
+      <img width="100%" id="bannerImg" src="Imgs/bannerhandy.jpg" alt="">
+    </div>
+
+    <nav class="hotbar">
+      <div class="hotbarItem">
+        <h2><a id="current" href="index.html">Home</a></h2>
+      </div>
+      <div class="hotbarItem">
+        <h2><a href="Sub-Sites/geplante-Reisen/index.html">Geplante Reisen</a></h2>
+      </div>
+      <div class="hotbarItem">
+        <h2><a href="Sub-Sites/Wo-Waren-Wir/index.html">Wo Waren Wir</a></h2>
+      </div>
+      <div class="hotbarItem">
+        <h2><a href="Sub-Sites/Links/index.html">Links</a></h2>
+      </div>
+      <div class="hotbarItem">
+        <h2><a href="Sub-Sites/Travel-Hacks/index.html">Travel Hacks</a></h2>
+      </div>
+    </nav>
+    
+  </body>
+</html>

@@ -1,3 +1,7 @@
+p{
+  margin: 0px;
+}
+
 /*Ids*/
 #descriptionText{
   margin-left: 4vw;
@@ -11,6 +15,8 @@
 }
 
 #text{
+  margin-bottom: 0.6vw;
+  margin-top: 0.5vw;
   margin-left: 1.5vw;
   font-family: main;
   font-size: 1vw;
@@ -41,7 +47,71 @@
   margin-left: 1.5vw;
 }
 
+#bildP{
+  opacity: 100%;
+}
+#bildJ{
+  opacity: 100%;
+}
+
+#bild1{
+  transition: 0.5s;
+  transform: translateY();
+}
+#bild2{
+  transition: 0.5s;
+  transform: translateY();
+}
+
+#textP{
+  transform: translateY();
+  transition: 1s;
+  margin-bottom: 0.6vw;
+  margin-top: 0.5vw;
+  margin-left: 1.5vw;
+  font-family: main;
+  font-size: 1vw;
+}
+
+#textJ{
+  transform: translateY();
+  transition: 1s;
+  margin-bottom: 0.6vw;
+  margin-top: 0.5vw;
+  margin-left: 1.5vw;
+  font-family: main;
+  font-size: 1vw;
+}
+#textJ2{
+  transform: translateY();
+  transition: 1s;
+  margin-bottom: 0.6vw;
+  margin-top: 0.5vw;
+  margin-left: 1.5vw;
+  font-family: main;
+  font-size: 1vw;
+}
+
+#textP2{
+  transform: translateY();
+  transition: 1s;
+  margin-bottom: 0.6vw;
+  margin-top: 0.5vw;
+  margin-left: 1.5vw;
+  font-family: main;
+  font-size: 1vw;
+}
+
+#headerJ{
+  transition: 1s;
+  transform: translateY();
+}
+#headerP{
+  transition: 1s;
+  transform: translateY();
+}
 /*Classes*/
+
 
 .strich{
   margin-top: 2vw;
@@ -51,7 +121,18 @@
   margin-right: 3vw;
 }
 
-.bildContainer{
+.bildContainerP{
+  transition: 0.5s;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  border-radius: 1vw;
+  margin-top: 2.5vw;
+  background-color: #343333;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.bildContainerJ{
+  transition: 0.5s;
   margin-right: 4vw;
   margin-left: 4vw;
   border-radius: 1vw;
@@ -63,10 +144,12 @@
 
 .bild{
   border-radius: 1vw;
-  height: 15vw;
+  height: 18vw;
   width: 40vw;
   background-color: rgb(16, 107, 164);
 }
+
+
 
 .letzesLand{
   border-radius: 1vw;
@@ -74,4 +157,8 @@
   grid-template-columns: auto auto;
   margin: 4vw;
   background-color: rgb(52, 51, 51);
+}
+
+.bildDescription{
+  margin-right: 0.8vw;
 }

@@ -1,0 +1,100 @@
+/*Elements*/
+p{
+  margin: 0px;
+}
+
+/*Classes*/
+
+.news{
+  margin-top: 3vw;
+  height: 100vw;
+  background-color: rgb(33, 33, 33);
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border: 0.1vw solid black;
+}
+
+.margin{
+  margin: 3vw;
+}
+
+ol{
+  transition: 0.4s;
+  padding-top: 0.4vw;
+  padding-bottom: 0.4vw;
+  font-size: 1vw;
+  font-family: lgc;
+}
+
+ol:hover{
+  transform: translateX(1vw);
+}
+
+li{
+  transition: 0.4s;
+  transform: translateX(-1vw);
+}
+
+a{
+  font-family: monospace;
+  font-size: 1vw;
+}
+/*Ids*/
+
+
+/*presets*/
+
+
+#header1{
+  margin-bottom: 0.5vw;
+  border-left:0.3vw solid rgb(84, 41, 187);
+  font-family: semiBold;
+  font-size: 1.7vw;
+}
+
+#header2{
+  font-family: main;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+#text{
+  font-family: main;
+  font-size: 1vw;
+}
+
+#zitat{
+  margin: 0.5vw;
+  margin-left: 1vw;
+  border-left:0.23vw solid rgb(77, 77, 77);
+  font-family: mono;
+  font-size: 1vw;
+}
+
+#fett{
+  font-family: main;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+#headerliste{
+  transform: translateX(-1.8vw);
+  font-family: main;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+#headerTextDescription{
+  margin-bottom: 0.1vw;
+  font-family: main;
+  font-size: 1vw;
+}
+
+
+
+.line{
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  border-top: 0.2vw dotted rgb(10, 10, 10);
+  width: 83vw;
+}
